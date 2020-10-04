@@ -39,6 +39,7 @@ h2 {
   font-weight: 700;
   text-transform: uppercase;
   margin: 0;
+  letter-spacing: 1px;
 }
 
 /* section: header and "your life is WebDev" */
@@ -143,4 +144,31 @@ h1 {
   display: flex;
   align-items: center;
   min-height: 842px;
+  padding: 0 268px;
+}
+
+.rappresent-img {
+  width: 1030px;
+}
+
+.rappresent-img img {
+  padding-bottom: 15px;
+}
+
+.rappresent-text {
+  padding-left: 1px;
+  padding-right: 250px;
+}
+
+.rappresent-text h2 {
+  padding-bottom: 8px;
+}
+
+.rappresent-text p {
+  line-height: 143%;
+  color: #4E4E4E;
+}
+
+.rappresent-text .btn {
+  margin-top: 16px;
 }
