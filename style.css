@@ -33,6 +33,14 @@ body {
   cursor: pointer;
 }
 
+h2 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
 /* section: header and "your life is WebDev" */
 .wrap-for-background {
   background-image: url("assets/bg-image.png");
@@ -128,4 +136,11 @@ h1 {
 .your-life .soc-icon img:hover {
   cursor: pointer;
   opacity: 0.8;
+}
+
+/* section "Rappresent" */
+.rappresent {
+  display: flex;
+  align-items: center;
+  min-height: 842px;
 }
