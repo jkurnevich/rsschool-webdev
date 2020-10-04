@@ -17,6 +17,7 @@ body {
 
 .btn {
   line-height: 16px;
+  letter-spacing: -0.3px;
   font-weight: 700;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -59,8 +60,13 @@ header nav a {
   text-decoration: none;
 }
 
+header nav:first-child {
+  margin-left: -14px;
+}
+
 header nav:first-child li:first-child a {
   border-bottom: 1px solid;
+  padding-bottom: 2px;
 }
 
 header nav li a:hover {
@@ -85,7 +91,7 @@ h1 {
   letter-spacing: 4.5px;
   text-transform: uppercase;
   color: #FFFFFF;
-  padding: 135px 0 20px 0;
+  padding: 135px 0 22px 5px;
   margin: 0;
 }
 
