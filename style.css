@@ -1,0 +1,125 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #fff;
+}
+
+body {
+  margin: 0;
+}
+
+.full-wrap {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  line-height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 15px 47px;
+  background: #00AFDB;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.btn:hover {
+  background: #009ac1;
+  cursor: pointer;
+}
+
+/* section: header and "your life is WebDev" */
+.wrap-for-background {
+  background-image: url("assets/bg-image.png");
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
+
+header nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header nav li {
+  padding: 0 42.5px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav:first-child li:first-child a {
+  border-bottom: 1px solid;
+}
+
+header nav li a:hover {
+  border-bottom: 1px solid;
+}
+
+.logo {
+  padding: 0 57.5px;
+  margin: 0;
+  display: flex;
+}
+
+.your-life {
+  min-height: 649px;
+  position: relative;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 135px 0 20px 0;
+  margin: 0;
+}
+
+.your-life .about {
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.your-life .btn {
+  margin: 10px auto;
+  display: block;
+}
+
+.your-life .soc-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0 85px;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: 0px;
+}
+
+.your-life .soc-icon img {
+  padding: 5px 15px;
+}
+
+.your-life .soc-icon img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
