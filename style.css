@@ -67,6 +67,7 @@ header nav li {
 header nav a {
   color: #fff;
   text-decoration: none;
+  padding-bottom: 2px;
 }
 
 header nav:first-child {
@@ -75,7 +76,6 @@ header nav:first-child {
 
 header nav:first-child li:first-child a {
   border-bottom: 1px solid;
-  padding-bottom: 2px;
 }
 
 header nav li a:hover {
@@ -158,6 +158,7 @@ h1 {
 .rappresent-text {
   padding-left: 1px;
   padding-right: 250px;
+  padding-bottom: 19px;
 }
 
 .rappresent-text h2 {
