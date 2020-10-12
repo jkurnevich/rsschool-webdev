@@ -173,3 +173,60 @@ h1 {
 .rappresent-text .btn {
   margin-top: 16px;
 }
+
+/* section "Our community" */
+.our-community {
+  height: 504px;
+  background: #F5F6F7;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.our-community .our-community-gallery {
+  margin-bottom: 60px;
+}
+
+.our-community .our-community-gallery .gallery {
+  display: flex;
+}
+
+.our-community .our-community-gallery .gallery img {
+  margin-left: 30px;
+}
+
+.our-community .our-community-gallery .pagination {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: flex-end;
+  margin-right: 269px;
+}
+
+.our-community .our-community-gallery .pagination .char {
+  font-size: 17px;
+  margin: 0 15px;
+}
+
+.our-community .our-community-text {
+  width: 298px;
+  text-align: center;
+  margin-right: 108px;
+  margin-bottom: 5px;
+}
+
+.our-community .our-community-text h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  margin: 17px 0 10px;
+}
+
+.our-community .our-community-text p {
+  line-height: 143%;
+  margin-top: 10px;
+}
+
+/* section "Implement" */
