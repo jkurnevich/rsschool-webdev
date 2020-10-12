@@ -111,11 +111,11 @@ h1 {
   text-align: center;
   color: #FFFFFF;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 .your-life .btn {
-  margin: 10px auto;
+  margin: 0 auto;
   display: block;
 }
 
@@ -230,3 +230,37 @@ h1 {
 }
 
 /* section "Implement" */
+.implement {
+  display: flex;
+  align-items: center;
+  min-height: 842px;
+  padding: 0 269px;
+  justify-content: flex-start;
+}
+
+.implement-img {
+  width: auto;
+}
+
+.implement-img img {
+  padding-bottom: 16px;
+}
+
+.implement-text {
+  padding-left: 139px;
+  padding-bottom: 21px;
+  max-width: 407px;
+}
+
+.implement-text h2 {
+  padding-bottom: 8px;
+}
+
+.implement-text p {
+  line-height: 143%;
+  color: #4E4E4E;
+}
+
+.implement-text .btn {
+  margin-top: 15px;
+}
