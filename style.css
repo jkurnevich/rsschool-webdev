@@ -264,3 +264,51 @@ h1 {
 .implement-text .btn {
   margin-top: 15px;
 }
+
+/* section "Sing up" */
+.sign-up {
+  height: 524px;
+  background-image: url("assets/sign-up-back.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sign-up h2 {
+  color: #fff;
+}
+
+.sign-up div {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.sign-up input {
+  width: 292px;
+  height: 46px;
+  background: #FFFFFF;
+  border: none;
+  color: rgb(55 55 55 / 0.5);
+  padding: 0 24px;
+  outline: none;
+}
+
+.sign-up button {
+  width: 66px;
+  height: 46px;
+  left: 0px;
+  top: 0px;
+  background: #00AFDB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.sign-up button:hover img {
+  opacity: 0.6;
+}
