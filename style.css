@@ -312,3 +312,47 @@ h1 {
 .sign-up button:hover img {
   opacity: 0.6;
 }
+
+/* section "Download" */
+.download {
+  height: 464px;
+  background: #F5F6F7;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.download p {
+  width: 480px;
+  color: #4E4E4E;
+  text-align: center;
+  margin: 20px 0 30px;
+  line-height: 143%;
+}
+
+.download .btn {
+  position: relative;
+  padding: 15px 77px 15px 18px;
+  margin: 0 13px;
+}
+
+.download .grp-btn {
+  margin-bottom: 60px;
+}
+
+.download .btn span {
+  width: 59px;
+  background: #009CC2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.download .btn:hover span img {
+  opacity: 0.8;
+}
